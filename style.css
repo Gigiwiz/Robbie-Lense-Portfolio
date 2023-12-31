@@ -1,0 +1,474 @@
+
+*{
+  margin: 0;
+}
+body{
+  background-color: #1F2039;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  }
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  
+.important {
+    color: #A5B4FC;
+  }
+
+  h1{
+    color: #A5B4FC; 
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  p,li{ 
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+  }
+  
+  h2{ 
+    font-size: 1.7em;
+    font-family:'Montserrat' , sans-serif;
+    color: #F9F8FF;
+   
+
+  }
+
+  .cta{
+    background: linear-gradient(#8E86B5,#ACAEED);
+    color: white;
+    font-family:'Montserrat' , sans-serif;
+    border-radius: 70px;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  .lien-icone {
+    margin-left: 30px;
+  }
+  
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  
+
+  .profile{
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid;
+    text-align: justify;
+    padding: 50px;
+    margin-bottom: 80px;
+  }
+  .profile h2{
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .profile ul{
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .profile + div{
+    text-align: center;
+  }
+  a[class="cta"]:hover {
+    background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
+}
+a img:hover {
+  opacity: 0.5;
+}
+
+header, footer{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  font-family:'Manrope' , sans-serif;
+  font-size: 15px;
+}
+section{
+  padding: 80px;
+}
+.a-propos-main {
+  width: 50%;
+  margin: auto;
+}
+
+footer,header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+
+}
+
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: center;
+  margin: auto;
+}
+.portfolio-section-photos {
+  background-color: white;
+}
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+}
+
+.grid-paysages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:300px 300px 300px 300px 300px 300px;
+  gap: 15px;
+}
+
+.grid-portraits{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:300px 300px 300px 300px 300px 300px;
+  gap: 15px;
+  
+}
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.paysage1,
+.portrait7{
+  grid-column: 1/3;
+}
+.paysage7, 
+.paysage3{
+  grid-column: 1/4;
+}
+
+.paysage9,
+.portrait2{
+  grid-column: 2/4;
+}
+
+.portrait6,
+.portrait12 
+{
+  grid-column: 1/4;
+}
+
+.portfolio-section-photos div {
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.lien-conteneur-photo {
+  position: relative;
+}
+.photo-hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: -70px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.lien-conteneur-photo:hover .photo-hover {
+  display: flex;
+}
+
+
+/* Tarifs */
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.cta {
+  display: inline-block;
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone {
+  margin-left: 30px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+section {
+  padding: 80px;
+}
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+
+
+table {
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
+
+td {
+  padding: 80px;
+}
+caption{
+  font-size: 3em;
+}
+
+/* Formulaires INDEX */
+
+.section-contact h2 {
+  color: #a5b4fc;
+  text-align: center;
+  margin-bottom: 50px;}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* RESPENSIVE DESIGN */
+
+
+@media screen and (max-width: 996px) {
+  .grid-paysages {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .grid-portraits {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .section-tarifs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .accueil-introduction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accueil-introduction div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+
+  .accueil-introduction img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .accueil-photos {
+    padding: 20px;
+  }
+
+  .accueil-photos div {
+    flex-direction: column;
+  }
+
+  .section-contact {
+    padding: 50px 20px;
+  }
+
+  .form-nom-email {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+
+@media screen and (max-width: 996px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
